@@ -30,8 +30,10 @@ int main(){
     string str;
     cout << "enter the value of string:";
     getline(cin,str);
-    cout << "The entire string value is: " << str;
-
+    cout << "The entire string value is: " << str << "\n";
+   // character;
+    char ch='a';
+    cout << ch;
 
     return 0;
 }

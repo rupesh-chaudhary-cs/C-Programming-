@@ -13,21 +13,43 @@ Take the age from the user and then decide accordingly
 using namespace std;
 int main(){
     int age;
-    cout << "Enter your age:";
+    cout << "enter the age of the person:";
     cin >> age;
-    if(age>=18){
-        if(age>=18 && age<=54){
-            cout << "Eligible for job\n";
-        }else if(age>=55 && age<=57){
-            cout << "eligible for job ,but retirement soom";
+    if (age>=18){
+        if(age<55){
+            cout << "Eligible for job" << "\n";
+
+        }else if(age>=55 and age<=57){
+            cout << "elgible for job,but retirement soon";
+            
         }else{
-            cout << "retiremnt time";
+            cout << "retirement time";
         }
+
     }else{
-        cout << "not eligible for job\n";
+        cout << "Not eligible for job";
     }
+    return 0;
+}
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int age;
+//     cout << "Enter your age:";
+//     cin >> age;
+//     if(age>=18){
+//         if(age>=18 && age<=54){
+//             cout << "Eligible for job\n";
+//         }else if(age>=55 && age<=57){
+//             cout << "eligible for job ,but retirement soom";
+//         }else{
+//             cout << "retiremnt time";
+//         }
+//     }else{
+//         cout << "not eligible for job\n";
+//     }
 
     
 
-    return 0;
-}
+//     return 0;
+// }

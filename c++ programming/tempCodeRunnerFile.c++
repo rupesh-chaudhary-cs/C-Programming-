@@ -1,15 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int age;
-    cout << "enter the age of the person:";
-    cin >> age;
-    if(age>=18){
-        cout << "Adult";
-
-    }else{
-        cout << "Not Adult";
-    }
-    
-    return 0;
-}
+int i=1;
+    // while(i<=10){
+    //     cout << "hello world" << i << endl;
+    //     i+=1;
+    // }

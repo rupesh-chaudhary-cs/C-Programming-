@@ -2,7 +2,10 @@
 using namespace std;
 void pattern23(int n){
     for(int i=0;i<n;i++){
-        
+        if(i==2){
+            break;
+        }
+    
         for(int j=0;j<(n-i-3);j++){
             cout << "*";
         }
@@ -16,9 +19,30 @@ void pattern23(int n){
     }
 
 }
+void pattern24(int n){
+    for(int i=0;i<n-1;i++){
+        if(i==2){
+            break;
+
+        }
+
+        for(int j=0;j<=i;j++){
+            cout << "*";
+        }
+        for(int j=0;j<(n-2*i-3);j++){
+            cout << " ";
+        }
+        for(int j=0;j<=i;j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
 int main(){
     int n;
     cin >> n;
     pattern23(n);
+    pattern24(n);
+
     return 0;
 }

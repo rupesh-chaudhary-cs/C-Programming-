@@ -1,4 +1,4 @@
-//print N to 1 using recursion backtracking;
+//print N to 1 using recursion backtracking first;
 #include<bits/stdc++.h>
 using namespace std;
 void Fn(int i,int N){

@@ -1,3 +1,4 @@
+//draw pattern3
 #include<bits/stdc++.h>
 using namespace std;
 int num=0;
